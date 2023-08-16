@@ -10,10 +10,11 @@ import { ChartData } from 'chart.js';
 })
 export class Grafica1Component {
 
- public labels1: string[] = ['Pan','Refresco','Tacos',];
+ public labels1: string[] = ['Pan', 'Refresco', 'Tacos', 'patatas'];
  public data1: ChartData<'doughnut'> = {
   datasets: [
-    { data: [350, 450, 100],
+    { data: [35, 15, 80, 10],
+      backgroundColor: [ '#6857E6','#009FEE','#F02059' ]
     }
   ]
  }
